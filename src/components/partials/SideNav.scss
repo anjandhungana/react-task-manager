@@ -1,0 +1,47 @@
+.side-nav {
+  height: 100%;
+  width: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+  .active {
+    background-color: #f94;
+    color: white;
+  }
+
+  .logo {
+    font-size: 2rem;
+    color: #f94;
+  }
+
+  .icon-group {
+    i {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      font-size: 1.4rem;
+      margin: 10px 0;
+      height: 2rem;
+      width: 2rem;
+      &:hover {
+        cursor: pointer;
+        background-color: #f94;
+        color: white;
+      }
+    }
+  }
+
+  .side-footer {
+      display: flex;
+      flex-direction: column;
+    i {
+      margin: 10px;
+    }
+  }
+}

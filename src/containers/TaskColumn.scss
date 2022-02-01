@@ -1,0 +1,12 @@
+.task-column{
+    // background-color: lightseagreen;
+    margin:0 25px;
+    display: flex;
+    flex-direction: column;
+
+    .task-column-title{
+        text-transform: uppercase;
+        // font-weight: bold;
+        text-align:center;
+    }
+}
