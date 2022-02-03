@@ -9,10 +9,28 @@
         align-items: center;
         justify-content: space-between;
         width:100%;
+
+        .card-icons>i{
+            margin:0 10px;
+        }
     }
 
     .card-title{
         font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    div.categories{
+        background: #333;
+        font-size: 0.7rem;
+        font-weight: lighter;  
+        width:fit-content;   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:5px 8px;
+        color:whitesmoke;
+        border-radius:10px;
     }
 
 }

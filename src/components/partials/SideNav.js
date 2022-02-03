@@ -6,9 +6,9 @@ export const SideNav = ()=>{
             <i className='fab fa-500px'></i>
         </div>
         <div className='icon-group'>
-            <i className='fa fa-plus'> </i>
+            <i className='fa fa-home active'> </i>
             <i className='far fa-clock'> </i>
-            <i className='fa fa-gear active'> </i>
+            <i className='fa fa-gear'> </i>
             <i className='far fa-compass'> </i>
             {/* <i className='fas chart-area'> </i> */}
         </div>
